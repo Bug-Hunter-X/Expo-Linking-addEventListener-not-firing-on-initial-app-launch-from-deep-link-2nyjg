@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Linking` API to handle deep links.  The `Linking.addEventListener` method doesn't trigger when the app is launched directly from a deep link, even though the `Linking.getInitialURL` correctly retrieves the URL. This is particularly problematic when the app needs to perform actions based on the deep link upon initial launch.
